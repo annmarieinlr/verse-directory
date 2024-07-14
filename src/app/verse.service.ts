@@ -7,8 +7,8 @@ import { Observable, of } from 'rxjs';
 })
 export class VerseService {
   private verses = [
-    { ref: 'Proverbs 14:1', text: 'Every wise woman buildeth her house: but the foolish plucketh it down with her hands.'},
-    { ref: 'Proverbs 3:5-6', text: 'Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.'},
+    { reference: 'Proverbs 14:1', content: 'Every wise woman buildeth her house: but the foolish plucketh it down with her hands.'},
+    { reference: 'Proverbs 3:5-6', content: 'Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.'},
   ];
 
   getVerses(): Observable<any[]> {

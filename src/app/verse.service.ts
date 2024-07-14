@@ -11,7 +11,7 @@ export class VerseService {
     { ref: 'Proverbs 3:5-6', text: 'Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.'},
   ];
 
-  getVerses(): Observable<any> {
+  getVerses(): Observable<any[]> {
     return of(this.verses);
   }
 
